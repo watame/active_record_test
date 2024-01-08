@@ -5,5 +5,8 @@ ActiveRecordのテスト用のレポジトリです。
 -  Ruby version
     - `3.2.0`
 
-- How to run the test suite
+- テスト実行方法
     - `bundle exec rspec` でテスト実行
+
+- DBのセットアップ
+    - `rails db:reset` でDB作成 + Seedの読み込み
